@@ -1,0 +1,36 @@
+.Right{
+    display: flex;
+    width: 600px;
+    height: 350px;
+    background-color: #21C6EF;
+    border: 2px solid black;
+    border-radius: 2%;
+    color: white;
+    padding: 20px;
+}
+
+.Left{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 600px;
+    height: 350px;
+    background-color: #21C6EF;
+    border: 2px solid black;
+    border-radius: 2%;
+    color: white;
+    padding: 20px;
+}
+
+img{
+    max-width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+h4{
+    text-transform: uppercase;
+}
+
+p{
+    font-size: small;
+}
