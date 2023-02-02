@@ -4,7 +4,7 @@ import './Header.css'
 export default function Header() {
     return (
         <div className="header">
-        <img src="./logo.png" alt="logo" width={100}/>
+        <img src="./logo.png" alt="logo" className="logo"/>
             <nav className="c-header-nav">
                 <ul>
                     <Link to="/" className="link">Home</Link>
